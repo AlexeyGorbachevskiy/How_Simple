@@ -30,7 +30,7 @@ function App() {
             {/*<UncontrolledRating/>*/}
         </div>
         // <div className='app-wrapper'>
-        //     <Header/>
+        //     <Header />
         //     <Nav/>
         //     <Profile/>
         // </div>
