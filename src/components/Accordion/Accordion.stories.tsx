@@ -13,6 +13,7 @@ export const CollapsedAccordion = () => {
         <Accordion collapsed={true}
                    onClick={action('clicked')}
                    titleValue={'--Collapsed--'}
+                   items={[]}
         />
     )
 }
@@ -21,6 +22,7 @@ export const UncollapsedAccordion = () => {
         <Accordion collapsed={false}
                    onClick={action('clicked')}
                    titleValue={'--Uncollapsed--'}
+                   items={[{value:1,title: 'Alex'},{value:2,title: 'Boris'},{value:3,title: 'Bob'}]}
         />
     )
 }
@@ -31,6 +33,7 @@ export const ClickableAccordion = () => {
         <Accordion collapsed={accordionCollapsed}
                    onClick={setAccordionCollapsed}
                    titleValue={'--Clickable--'}
+                   items={[{value:1,title: 'Alex'},{value:2,title: 'Boris'},{value:3,title: 'Bob'}]}
         />
     )
 }
