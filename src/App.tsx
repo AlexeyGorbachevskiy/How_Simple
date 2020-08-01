@@ -25,7 +25,7 @@ function App() {
             {/*<UncontrolledOnOff/>*/}
             {/*<UncontrolledOnOff/>*/}
             {/*<UncontrolledAccordion titleValue={'--Users--'}/>*/}
-            {/*<UncontrolledAccordion titleValue={'--Menu--'} />*/}
+            {/*<UncontrolledAccordion titleValue={'--Menu--'} /> */}
             {/*<UncontrolledRating/>*/}
             {/*<UncontrolledRating/>*/}
         </div>
