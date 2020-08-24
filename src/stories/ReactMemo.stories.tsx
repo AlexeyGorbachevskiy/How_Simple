@@ -31,7 +31,6 @@ export const ReactMemoDemo = () => {
             </button>
             <NewMessagesCounter count={counter}/>
             <Users users={users}/>
-            {}
         </>
     )
 }
